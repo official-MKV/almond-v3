@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+      font-family: 'Aeonik';
+      src: url('../src/assets/Brand Typeface/New Aeonik Trials/AeonikTRIAL-Regular.otf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Aeonik';
+      src: url('../src/assets/Brand Typeface/New Aeonik Trials/AeonikTRIAL-Bold.otf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Aeonik';
+      src: url('../src/assets/Brand Typeface/New Aeonik Trials/AeonikTRIAL-Light.otf') format('truetype');
+      font-weight: lighter;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Helvetica';
+      src: url('../src/assets/Brand Typeface/helvetica-neue/HelveticaNeueMedium.otf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Helvetica';
+      src: url('../src/assets/Brand Typeface/helvetica-neue/HelveticaNeueBold.otf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Helvetica';
+      src: url('../src/assets/Brand Typeface/helvetica-neue/HelveticaNeueLight.otf') format('truetype');
+      font-weight: lighter;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Helvetica';
+      src: url('../src/assets/Brand Typeface/helvetica-neue/HelveticaNeueBlack.otf') format('truetype');
+      font-weight: bolder;
+      font-style: normal;
+    }
+  }
